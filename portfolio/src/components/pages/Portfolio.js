@@ -1,11 +1,12 @@
 import React from 'react';
+import Card from './Card';
 
 export default function Blog() {
   return (
     <div>
-      <h2>Blog Page</h2>
+      <h2>Portfolio</h2>
       <p>
-        Cards using my portfolio pieces with pics
+        <Card />
       </p>
     </div>
   );
