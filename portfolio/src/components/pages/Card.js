@@ -23,7 +23,7 @@ export default function Card(props) {
   // We are assigning return JSX in line style `{width: '18rem'}`
     return (
       <div className="container">
-        <a href="https://github.com/wseban?tab=repositories" className="card" style={cardStyle}>
+        <a href="https://github.com/wseban?tab=repositories" className="card" >
           <img
             className="card-img-top"
             //src={`http://placecorgi.com/${randomWidth()}`}
