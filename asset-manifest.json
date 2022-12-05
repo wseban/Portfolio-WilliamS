@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c2cab247.css",
+    "main.js": "/static/js/main.239f86f3.js",
+    "static/media/Disney.png": "/static/media/Disney.ec0f0153787e80101ecd.png",
+    "static/media/IMG_2605.JPG": "/static/media/IMG_2605.c515f4d58ed4ca3c8cc0.JPG",
+    "static/media/Get-Route.png": "/static/media/Get-Route.a8f74bdc3c58fd04ce33.png",
+    "static/media/myResume.pdf": "/static/media/myResume.55a3cf2e3238cc836e2f.pdf",
+    "index.html": "/index.html",
+    "main.c2cab247.css.map": "/static/css/main.c2cab247.css.map",
+    "main.239f86f3.js.map": "/static/js/main.239f86f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cab247.css",
+    "static/js/main.239f86f3.js"
+  ]
+}
