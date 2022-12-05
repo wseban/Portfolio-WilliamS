@@ -6,13 +6,13 @@ export default function Resume() {
     <div>
       <h2>Download my resume below!</h2>
       <h4>Frontend</h4>
-      <p>
+      <ul>
         List of skills Frontend and back end and ability to download Resume
-      </p>
+      </ul>
       <h4>Backend</h4>
-      <p>
+      <ul>
         List of skills Frontend and back end and ability to download Resume
-      </p>
+      </ul>
       <a href={MyPDF} download="myResume.pdf"> Download Here </a>
     </div>
   );
