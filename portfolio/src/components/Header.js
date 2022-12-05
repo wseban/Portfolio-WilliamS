@@ -1,13 +1,12 @@
 import React from 'react';
 
-// Here we are using object destructuring assignment to pluck off our variables from the props object
-// We assign them to their own variable names
+
 function Header({ currentPage, handlePageChange }) {
   return (
-    <header className='hstack gap-3 ' style={{height: "100px"}}>
-    <h1 className=''>William Seban</h1>
-    <ul className="nav border ms-auto">
-      <li className="nav-item">
+    <header className='hstack gap-3 ' style={{height: "100px", backgroundColor: "#5D6D7E"}}>
+    <h1 className='' style={{marginLeft: "20px", color: "aqua"}}>William Seban</h1>
+    <ul className="nav border ms-auto" style={{marginRight: "10px", backgroundColor: "aqua", textDecoration: 'none'}}>
+      <li className="nav-item" style={{fontSize: "36px"}}>
         <a
           href="#about"
           onClick={() => handlePageChange('About Me')}
@@ -17,7 +16,7 @@ function Header({ currentPage, handlePageChange }) {
           About Me
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item" style={{fontSize: "36px"}}>
         <a
           href="#portfolio"
           onClick={() => handlePageChange('Portfolio')}
@@ -26,7 +25,7 @@ function Header({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item" style={{fontSize: "36px"}}>
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
@@ -35,7 +34,7 @@ function Header({ currentPage, handlePageChange }) {
           Contact Me
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item" style={{fontSize: "36px"}}>
         <a
           href="#resume"
           onClick={() => handlePageChange('Resume')}

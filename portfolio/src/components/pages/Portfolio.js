@@ -43,7 +43,7 @@ const links = [
 
   return (
     <div>
-      <h2>Portfolio</h2>
+      <h2 style={{ maxWidth: "150px", margin: "0 auto", fontFamily: "serif" }}>Portfolio</h2>
       <div className="container" style={{display: "flex", flexWrap: "wrap", justifyContent: "space-between"}}>
         <Card img={disneyPic} activeLink={links[0].activeLink} repoLink={links[0].repoLink}/>
         <Card img={links[1].img} activeLink={links[1].activeLink} repoLink={links[1].repoLink}/>
