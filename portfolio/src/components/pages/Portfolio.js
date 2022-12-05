@@ -31,7 +31,7 @@ const links = [
     name: "Note Taker",
     activeLink: "https://note-taker-seban.herokuapp.com/",
     repoLink: "https://github.com/wseban/Note-Taker",
-    img: "https://github.com/wseban/Note-Taker/blob/main/public/pics/Landing.png?raw=true"
+    img: "https://raw.githubusercontent.com/wseban/Note-Taker/main/public/pics/Landing.png"
   },
   {
     name: "Code Quiz",
@@ -44,14 +44,14 @@ const links = [
   return (
     <div>
       <h2>Portfolio</h2>
-      <p>
-        <Card img={disneyPic}/>
-        <Card img={links[1].img}/>
-        <Card img={links[2].img}/>
-        <Card img={links[3].img}/>
-        <Card img={getRoutePic}/>
-        <Card img={links[5].img}/>
-      </p>
+      <div className="container" style={{display: "flex", flexWrap: "wrap", justifyContent: "space-between"}}>
+        <Card img={disneyPic} activeLink={links[0].activeLink} repoLink={links[0].repoLink}/>
+        <Card img={links[1].img} activeLink={links[1].activeLink} repoLink={links[1].repoLink}/>
+        <Card img={links[2].img} activeLink={links[2].activeLink} repoLink={links[2].repoLink}/>
+        <Card img={links[4].img} activeLink={links[3].activeLink} repoLink={links[3].repoLink}/>
+        <Card img={getRoutePic} activeLink={links[4].activeLink} repoLink={links[4].repoLink}/>
+        <Card img={links[5].img} activeLink={links[5].activeLink} repoLink={links[5].repoLink}/>
+      </div>
     </div>
   );
 }

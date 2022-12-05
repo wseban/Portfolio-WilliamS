@@ -4,7 +4,7 @@ import React from 'react';
 // We assign them to their own variable names
 function Header({ currentPage, handlePageChange }) {
   return (
-    <header className='hstack gap-3 '>
+    <header className='hstack gap-3 ' style={{height: "100px"}}>
     <h1 className=''>William Seban</h1>
     <ul className="nav border ms-auto">
       <li className="nav-item">
