@@ -39,7 +39,7 @@ export default function Contact() {
 
   };
   return (
-    <div style={{ maxWidth: "1000px", margin: "0 auto" }}>
+    <div style={{ maxWidth: "1000px", margin: "0 auto", height: '75vh' }}>
       <h2>Contact Me</h2>
       <Form>
         <Form.Group className="mb-3" controlId="formBasicName">

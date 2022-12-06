@@ -4,7 +4,7 @@ import pic from '../../utils/pics/IMG_2605.JPG'
 export default function About() {
   
   return (
-    <div style={{ maxWidth: "1000px", margin: "0 auto" }}>
+    <div style={{ maxWidth: "1000px", margin: "0 auto", height: '75vh' }}>
       <h2>About Me</h2>
       <img src = {pic} alt='developer' style={{maxWidth: "400px", boxShadow: "5px -5px gray", zIndex: "1"}}/>
       <p>
