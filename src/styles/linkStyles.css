@@ -1,0 +1,41 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: blue;
+}
+
+.nav-item a:link {
+    
+    color: white;
+}
+
+.nav-item a:hover {
+    color: hotpink;
+}
+
+.nav-item a:active {
+    color: blue;
+}
+footer a:link {
+    
+    color: white;
+}
+
+footer a:hover {
+    color: hotpink;
+}
+
+footer a:active {
+    color: blue;
+}

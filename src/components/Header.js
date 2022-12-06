@@ -1,16 +1,18 @@
 import React from 'react';
-
+import '../styles/linkStyles.css';
 
 function Header({ currentPage, handlePageChange }) {
+
+
+
   return (
     <header className='hstack gap-3 ' style={{height: "100px", backgroundColor: "#5D6D7E", fontFamily: "serif"}}>
     <h1 className='' style={{marginLeft: "20px", fontSize: "70px", color: "lightBlue"}}>William Seban</h1>
-    <ul className="nav border ms-auto" style={{marginRight: "10px", backgroundColor: "lightBlue", textDecoration: 'none'}}>
+    <ul className="nav border ms-auto" style={{marginRight: "10px", backgroundColor: "lightBlue"}}>
       <li className="nav-item" style={{fontSize: "36px"}}>
         <a
           href="#about"
           onClick={() => handlePageChange('About Me')}
-          
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
           About Me

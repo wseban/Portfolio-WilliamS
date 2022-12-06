@@ -29,8 +29,8 @@ export default function Contact() {
       return handleShow()
     }
     setFormState({ email: "", name: "", message: "" })
-
-    emailjs.send('default_service', 'template_dsjx25m', formState, 'C8S5M9CyzbHsWjtS2')
+    console.log(formState)
+    emailjs.send('default_service', 'template_dsjx25m', {formState}, 'C8S5M9CyzbHsWjtS2')
       .then(function (response) {
         console.log('SUCCESS!', response.status, response.text);
       }, function (error) {

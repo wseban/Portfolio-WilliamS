@@ -1,5 +1,6 @@
 import React from "react";
 import {SiLinkedin, SiGithub, SiMedium} from 'react-icons/si'
+import '../styles/linkStyles.css'; 
 
 function Footer() {
     return (
