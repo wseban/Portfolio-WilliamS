@@ -4,7 +4,7 @@ import '../styles/linkStyles.css';
 
 function Footer() {
     return (
-        <footer style={{ display: "flex", flexWrap: "wrap", alignContent: "center", maxWidth: "240px", margin: "0 auto", height: "20vh", backgroundColor: "" }}>
+        <footer style={{ display: "flex", flexWrap: "wrap", alignContent: "center", maxWidth: "240px", margin: "0 auto", height: "20vh"}}>
                     <a href="https://www.linkedin.com/in/williamseban/" alt="linkedin" style={{fontSize: "40px", margin: "10px"}}>
                         <SiLinkedin/>
                     </a>

@@ -42,7 +42,7 @@ const links = [
 ];
 
   return (
-    <div style={{height: '170vh'}}>
+    <div>
       <h2 style={{ maxWidth: "150px", margin: "0 auto", fontFamily: "serif", marginBottom: "20px", fontWeight: "bold", fontSize: "50px" }}>Portfolio</h2>
       <div className="container" style={{display: "flex", flexWrap: "wrap", justifyContent: "space-between"}}>
         <Card img={disneyPic} name={links[0].name} activeLink={links[0].activeLink} repoLink={links[0].repoLink}/>

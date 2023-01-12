@@ -27,7 +27,7 @@ export default function PortfolioContainer() {
   return (
     <div style={{backgroundColor: "lightBlue"}}>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-      <main>{renderPage()}</main>
+      <>{renderPage()}</>
       <Footer />
     </div>
   );
