@@ -4,7 +4,7 @@ import { IoIosCloudDownload } from "react-icons/io";
 
 export default function Resume() {
   return (
-    <div style={{ maxWidth: "1000px", margin: "0 auto", height: '75vh' }}>
+    <div style={{ maxWidth: "1000px", margin: "0 auto"}}>
       <h2>Download my resume below!</h2>
       <h4>Frontend</h4>
       <ul>
