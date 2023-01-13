@@ -56,8 +56,8 @@ export default function Blog() {
         <Card img={disneyPic} name={links[0].name} activeLink={links[0].activeLink} repoLink={links[0].repoLink} />
         <Card img={links[1].img} name={links[1].name} activeLink={links[1].activeLink} repoLink={links[1].repoLink} />
         <Card img={links[2].img} name={links[2].name} activeLink={links[2].activeLink} repoLink={links[2].repoLink} />
-        <Card img={links[4].img} name={links[3].name} activeLink={links[3].activeLink} repoLink={links[3].repoLink} />
-        <Card img={getRoutePic} name={links[4].name} activeLink={links[4].activeLink} repoLink={links[4].repoLink} />
+        <Card img={getRoutePic} name={links[3].name} activeLink={links[3].activeLink} repoLink={links[3].repoLink} />
+        <Card img={links[4].img} name={links[4].name} activeLink={links[4].activeLink} repoLink={links[4].repoLink} />
         <Card img={links[5].img} name={links[5].name} activeLink={links[5].activeLink} repoLink={links[5].repoLink} />
       </div>
     </div>
